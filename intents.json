@@ -1,0 +1,180 @@
+{
+   "intents":[
+      {
+         "tag":"greeting",
+         "patterns":[
+            "Hi there",
+            "How are you",
+            "Is anyone there?",
+            "Hey",
+            "Hola",
+            "Hello",
+            "Good day"
+         ],
+         "responses":[
+            "Hello, thanks for asking",
+            "Good to see you ",
+            "Hi there, how can I help?"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"goodbye",
+         "patterns":[
+            "Bye",
+            "See you later",
+            "Goodbye",
+            "Nice chatting to you, bye",
+            "Till next time"
+         ],
+         "responses":[
+            "See you!",
+            "Have a nice day",
+            "Bye! Come back again soon."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"thanks",
+         "patterns":[
+            "Thanks",
+            "Thank you",
+            "That's helpful",
+            "Awesome, thanks",
+            "Thanks for helping me"
+         ],
+         "responses":[
+            "Happy to help!",
+            "Any time!",
+            "My pleasure"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"noanswer",
+         "patterns":[
+            
+         ],
+         "responses":[
+            "Sorry, can't understand you",
+            "Please give me more info",
+            "Not sure I understand"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"options",
+         "patterns":[
+            "How you could help me?",
+            "What you can do?",
+            "What help you provide?",
+            "How you can be helpful?",
+            "What support is offered?"
+         ],
+         "responses":[
+            "I am your personal assistant for getting information of courses in Energy Science Department, IIT Bombay"
+
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"python_is_best",
+         "patterns":[
+            "Which is the best programming language?",
+            "Can you tell me the best language ever?",
+            "What language can I start for programming",
+            "Is Python language an awesome language?",
+            "I am a beginner and I need to learn a new language"
+         ],
+         "responses":[
+            "Without a doubt, Python is the most BEAUTIFUL language ever! You can start learning it anytime",
+            "I am a fan of Python. It's my favorite ever. If you don't believe me, try it yourself"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"tips",
+         "patterns":[
+            "give me a tip",
+            "any piece of advice",
+            "tips for courses",
+            "advice",
+            "tips"
+         ],
+         "responses":[
+            "Before registering for a course, check its GRADING STATISTICS", "Go through COURSE INFO before Registration", "Check if the course is running in the current semester", "Select the courses based on your INTEREST"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {  "tag": "name",
+         "patterns": ["what is your name?","what should I call you?","your name"],
+         "responses": ["I'm ASC. I can help you in providing Information about courses"],
+         "context": [""]
+      },
+      {
+         "tag": "Grading_Statistics_EN606",
+         "patterns": ["tell me the grading statistics of EN 606", "grading Statistics of EN 606", "grades in EN 606"],
+         "responses": ["Course is not running this semester","Sorry, not running this semester"]
+      },
+      {
+         "tag": "Grading_Statistics_EN601",
+         "patterns": ["tell me the grading statistics of EN 601", "grading Statistics of EN 601", "grades in EN 601"],
+         "responses": ["Course is not running this semester","Sorry, not running this semester"]
+      },
+      {
+         "tag": "Grading_Statistics_EN610",
+         "patterns": ["tell me the grading statistics of EN 610", "grading Statistics of EN 610", "grades in EN 610"],
+         "responses": ["AA: 10 \n AB: 15 \n BB: 05 \n BC: 03 "]
+      },
+      {
+         "tag": "Grading_Statistics_EN642",
+         "patterns": ["tell me the grading statistics of EN 642", "grading Statistics of EN 642", "grades in EN 642"],
+         "responses": ["AA: 2 \n AB: 10 \n BB: 25 \n BC: 07 "]
+      },
+      {
+         "tag": "Grading_Statistics_EN607",
+         "patterns": ["tell me the grading statistics of EN 607", "grading Statistics of EN 607", "grades in EN 607"],
+         "responses": ["AA: 12 \n AB: 09 \n BB: 03 \n BC: 01 "]
+      },
+      {
+         "tag": "Running Courses",
+         "patterns": ["tell me the courses running this semester", "courses in this semester", "courses offered in this semester", "running courses"],
+         "responses": ["These Courses are running this semester: \n EN 610 \n EN 607 \n EN 642 "]
+      },
+      {
+         "tag": "Syllabus_Professor_EN610",
+         "patterns": ["tell me about course EN 610", "syllabus of course EN 610", "syllabus of EN 610", "course info EN 610", "course details EN 610" ],
+         "responses": ["Name of the Course : Hydrogen Energy \n Professor : Prof. Pratibha Sinha \n Syllabus : Hydrogen Production, Purification and Storage"]
+      },
+      {
+         "tag": "Syllabus_Professor_EN642",
+         "patterns": ["tell me about course EN 642", "syllabus of course EN 642", "syllabus of EN 642", "course info EN 642", "course details EN 642" ],
+         "responses": ["Name of the Course : Power Generation and Systems Planning \n Professor : Prof. Bandyopadhyay Santanu \n Syllabus : Power Generation and Planning of Power Systems"]
+      },
+      {
+         "tag": "Syllabus_Professor_EN607",
+         "patterns": ["tell me about course EN 607", "syllabus of course EN 607", "syllabus of EN 607", "course info EN 607", "course details EN 607" ],
+         "responses": ["Name of the Course : Energy Management \n Professor : Prof. Venkatasailanathan Ramadesigan \n Syllabus : Energy Efficiency, Management and Auditing"]
+      },
+      {
+         "tag": "Creation",
+         "patterns": ["who created you", "who is your creator"],
+         "responses": ["Abhijit has created me using PYTHON language"]
+      }
+
+   ]
+}
