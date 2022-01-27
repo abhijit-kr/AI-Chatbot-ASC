@@ -9,7 +9,7 @@ ASC Chatbot has been developed to assist students and provide certain informatio
 * **Libraries Used** : NLTK, Tensorflow, Keras, NumPy, Tkinter
 
 
-## FILE STRUCTURE
+## File Structure
 * **Intents.json** : The data file containing predefined patterns and responses
 * **train_chatbot.py** : Python Script for building the model and training the chatbot 
 * **words.pkl** : Pickle File for storing the list of words (vocabulary)
@@ -18,7 +18,7 @@ ASC Chatbot has been developed to assist students and provide certain informatio
 * **chatgui.py** : Python script for implementation of Graphic User Interface for the chatbot
 
 
-## STEPS
+## Steps
 Follow the steps and make your own AI Chatbot
 
 * **STEP 1** : Download PyCharm 2020.2.5 
@@ -30,7 +30,7 @@ Follow the steps and make your own AI Chatbot
 * **STEP 7** : A chatbot window will appear on the screen
 * **STEP 8** : Now, communicate with the bot
 
-## Chatbot
+## Chatbot Window
 ![image](https://user-images.githubusercontent.com/93513034/151418784-a2915f07-dd66-4c49-82a0-0af031bb7a54.png)
 
 
